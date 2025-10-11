@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255);
+}
+
+.navbar-brand {
+  font-family: "Audiowide", sans-serif;
+}
+
+.image-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* loader */
+.loader { 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+} 
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+/* image container */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.bottom-photo {
+  display: none;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.bottom-photo a {
+  background-color: lightslategray;
+  border-radius: 4px;
+  border: 0px;
+  padding: 5px 10px 5px 10px;
+}
+
+.bottom-photo a:active {
+  transform: scale(0.9);
+}
+
+.details {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#download {
+  text-decoration: none;
+  color: white;
+}
+
+.details * {
+  font-size: 0.9rem;
+  margin: 2px 0 2px 0 ;
+}
+
+#popover {
+  cursor: pointer;
+}
+
+.serach-bottom {
+  border-radius: 50%;
+  padding: 6px 8px 6px 8px;
+  box-shadow: 0 6px 3px;
+}
+
+.serach-bottom:active {
+  transform: translate(0, 6px);
+  box-shadow: 0 0px 6px rgba(55, 55, 255, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .details * {
+    font-size: 0.6rem;
+    margin: 2px 0 2px 0 ;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+
+  .search {
+    width: 230px;
+  }
+
+  .bottom-photo a {
+    border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+  }
+
+  #download {
+    font-size: 0.8rem;
+  }
+
+}
