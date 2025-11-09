@@ -1,15 +1,17 @@
-# Pixoras
+# 📸 Pixoras
 
-A place to find high quality photos.
+A platform to discover and download high-quality photos.
 
-•	Design With CSS
+-  Designed using CSS
 
-•	Javascript
+-  Built with JavaScript
 
-•	API - Unsplash APl
+-  Integrated Unsplash API
 
-# ✨ Features
+# ✨ Features:
 
--  Can see the camera setting of the photo and can download picutre.
+-  View detailed camera settings for each photo
 
--  Infinite scroll functionality
+-  Download images directly
+
+-  Infinite scroll functionality for smooth browsing
